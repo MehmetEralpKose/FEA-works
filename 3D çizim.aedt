@@ -1,0 +1,4017 @@
+$begin 'AnsoftProject'
+	Created='Tue Oct 31 18:28:14 2017'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2017, 0)
+		InfrastructureVersion(1, 0)
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'HFIEEnvironment'
+		Version(1, 0)
+	$end 'HFIEEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=5
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=6
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1604, 10000, 1, 1, 0, false, false)
+			Materials(1604, 9500, 9, 2, 1, false, false)
+			Scripts(1604, 9502, 33500, 4, 1, false, false)
+			Padstacks(1604, 9003, 12, 105, 1, false, false)
+			Symbols(1604, 9001, 10, 103, 1, false, false)
+			Footprints(1604, 9002, 11, 104, 1, false, false)
+			Components(1604, 9000, 8, 102, 1, false, false)
+			Models(1604, 9004, 13, 106, 1, false, false)
+			Packages(1604, 9005, 33502, 107, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				permittivity='1'
+				ModTime=1028307964
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'vacuum'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coeffcient='1.77e-005'
+				ModTime=1132068239
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'copper'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'Maxwell2DDesign1'
+				ModTime=1509461493
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'Maxwell2DDesign1'
+			$begin 'Maxwell3DDesign1'
+				ModTime=1509462815
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'Maxwell3DDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			Maxwell2DDesign1(0, 0, '', 1509461493, '', 'Maxwell2DDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1509461493, '')
+			Maxwell3DDesign1(0, 0, '', 1509462815, '', 'Maxwell3DDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1509462815, '')
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'Maxwell2DDesign1'
+				Library=''
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'Maxwell2DDesign1')
+					TextProp('Owner', 'SRD', '', 'Maxwell 2D')
+				$end 'Properties'
+				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
+			$end 'Maxwell2DDesign1'
+			$begin 'Maxwell3DDesign1'
+				Library=''
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'Maxwell3DDesign1')
+					TextProp('Owner', 'SRD', '', 'Maxwell 3D')
+				$end 'Properties'
+				CompExtID=6
+				$begin 'Parameters'
+					MenuProp('CoSimulator', 'D', '', 'DefaultNetlist', 0)
+					ButtonProp('CosimDefinition', 'D', '', '', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=4
+						CosimDefName='DefaultNetlist'
+						IsDefinition=true
+						Connect=true
+						Data()
+						GRef()
+					$end 'CosimDefinition'
+					DefaultCosim='DefaultNetlist'
+				$end 'CosimDefinitions'
+			$end 'Maxwell3DDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=12
+	MoveBackwards=false
+	$begin 'Maxwell3DModel'
+		RepRewriteV2=true
+		Name='Maxwell3DDesign1'
+		DesignID=2
+		'Allow Material Override'=false
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			EnableFeedback=false
+			Temperatures(6, '22cel', 245, '22cel', 324, '22cel', 336, '22cel', 348, '22cel', 360, '22cel', 372, '22cel', 384, '22cel', 396, '22cel', 408, '22cel', 420, '22cel', 432, '22cel', 444, '22cel', 456, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		ComputeIncrementalMatrix=false
+		PerfectConductorThreshold=1e+030
+		InsulatorThreshold=1
+		SolutionType='Magnetostatic'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			$begin 'Properties'
+				VariableProp('pitch', 'UD', '', '5cm')
+				VariableProp('length', 'UD', '', '1meter')
+				VariableProp('width', 'UD', '', '1meter')
+			$end 'Properties'
+			VariableOrders[3: 'pitch', 'length', 'width']
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=9671571
+				'Num Lights'=4
+				Light0[4: 6710886, 0, -1, -0.150000005960464]
+				Light1[4: 6710886, -0.600000023841858, 0.100000001490116, -0.5]
+				Light2[4: 6710886, 0.5, 0.100000001490116, -0.5]
+				Light3[4: 6710886, 0.200000002980232, 0.400000005960464, 1]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=20
+				NativeKernel='ACIS'
+				NativeKernelVersionID=9
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=467
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+						$begin 'Group'
+							GroupID=36
+							$begin 'Attributes'
+								Name='Polyline_Group'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+						$begin 'Group'
+							GroupID=113
+							$begin 'Attributes'
+								Name='Group4'
+								ParentGroupID=-1
+							$end 'Attributes'
+						$end 'Group'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline1'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=36
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=5
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-0.5cm'
+												Y='3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-0.5cm'
+												Y='5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5cm'
+												Y='5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5cm'
+												Y='-5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5cm'
+												Y='-5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5cm'
+												Y='5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.5cm'
+												Y='5cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.5cm'
+												Y='3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='4cm'
+												Y='3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='4cm'
+												Y='-3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-4cm'
+												Y='-3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-4cm'
+												Y='3cm'
+												Z='100cm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-0.5cm'
+												Y='3cm'
+												Z='100cm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=4
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=5
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=6
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=7
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=8
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=9
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=10
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=11
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0meter'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0meter'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=6
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=6
+										StartFaceID=-1
+										StartEdgeID=7
+										StartVertexID=19
+										NumNewFaces=0
+										NumNewEdges=12
+										NumNewVertices=12
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=31
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=6
+									$end 'LocalOperationParameters'
+									ParentPartID=6
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=35
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=35
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 12, 12, 12)
+														$begin 'FaceGeometry'
+															Area=5000
+															FcUVMid(8.88178419700125e-016, -3.10862446895044e-015, 1000)
+															$begin 'FcTolVts'
+																TolVt(-5, 30, 1000, 0)
+																TolVt(-5, 50, 1000, 0)
+																TolVt(-50, 50, 1000, 0)
+																TolVt(-50, -50, 1000, 0)
+																TolVt(50, -50, 1000, 0)
+																TolVt(50, 50, 1000, 0)
+																TolVt(5, 50, 1000, 0)
+																TolVt(5, 30, 1000, 0)
+																TolVt(40, 30, 1000, 0)
+																TolVt(40, -30, 1000, 0)
+																TolVt(-40, -30, 1000, 0)
+																TolVt(-40, 30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=5
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline23'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=244
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=4
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=5
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=6
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=7
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=8
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=9
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=10
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=11
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=245
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=245
+										StartFaceID=-1
+										StartEdgeID=246
+										StartVertexID=258
+										NumNewFaces=0
+										NumNewEdges=12
+										NumNewVertices=12
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=270
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=245
+									$end 'LocalOperationParameters'
+									ParentPartID=245
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=271
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=271
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 12, 12, 12)
+														$begin 'FaceGeometry'
+															Area=5000
+															FcUVMid(-3.88578058618805e-016, -3.10862446895044e-015, 0)
+															$begin 'FcTolVts'
+																TolVt(5, 50, 0, 0)
+																TolVt(50, 50, 0, 0)
+																TolVt(50, -50, 0, 0)
+																TolVt(-50, -50, 0, 0)
+																TolVt(-50, 50, 0, 0)
+																TolVt(-5, 50, 0, 0)
+																TolVt(-5, 30, 0, 0)
+																TolVt(-40, 30, 0, 0)
+																TolVt(-40, -30, 0, 0)
+																TolVt(40, -30, 0, 0)
+																TolVt(40, 30, 0, 0)
+																TolVt(5, 30, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=244
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline24'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=323
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=324
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=324
+										StartFaceID=-1
+										StartEdgeID=325
+										StartVertexID=329
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=333
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=324
+									$end 'LocalOperationParameters'
+									ParentPartID=324
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=334
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=334
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=100000
+															FcUVMid(50, 0, 500)
+															$begin 'FcTolVts'
+																TolVt(50, 50, 1000, 0)
+																TolVt(50, 50, 0, 0)
+																TolVt(50, -50, 0, 0)
+																TolVt(50, -50, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=323
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline25'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=335
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=336
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=336
+										StartFaceID=-1
+										StartEdgeID=337
+										StartVertexID=341
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=345
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=336
+									$end 'LocalOperationParameters'
+									ParentPartID=336
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=346
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=346
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=45000
+															FcUVMid(27.5, 50, 500)
+															$begin 'FcTolVts'
+																TolVt(50, 50, 1000, 0)
+																TolVt(50, 50, 0, 0)
+																TolVt(5, 50, 0, 0)
+																TolVt(5, 50, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=335
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline26'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=347
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-38.75mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=348
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=348
+										StartFaceID=-1
+										StartEdgeID=349
+										StartVertexID=353
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=357
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=348
+									$end 'LocalOperationParameters'
+									ParentPartID=348
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=358
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=358
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=39375
+															FcUVMid(-27.5, 50, 500)
+															$begin 'FcTolVts'
+																TolVt(-5, 50, 1000, 0)
+																TolVt(-5, 50, 0, 0)
+																TolVt(-38.75, 50, 0, 0)
+																TolVt(-50, 50, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=347
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline27'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=359
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=360
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=360
+										StartFaceID=-1
+										StartEdgeID=361
+										StartVertexID=365
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=369
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=360
+									$end 'LocalOperationParameters'
+									ParentPartID=360
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=370
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=370
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=100000
+															FcUVMid(0, -50, 500)
+															$begin 'FcTolVts'
+																TolVt(50, -50, 1000, 0)
+																TolVt(50, -50, 0, 0)
+																TolVt(-50, -50, 0, 0)
+																TolVt(-50, -50, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=359
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline28'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=371
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-50mm'
+												Y='-50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=372
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=372
+										StartFaceID=-1
+										StartEdgeID=373
+										StartVertexID=377
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=381
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=372
+									$end 'LocalOperationParameters'
+									ParentPartID=372
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=382
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=382
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=100000
+															FcUVMid(-50, 0, 500)
+															$begin 'FcTolVts'
+																TolVt(-50, -50, 1000, 0)
+																TolVt(-50, -50, 0, 0)
+																TolVt(-50, 50, 0, 0)
+																TolVt(-50, 50, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=371
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline29'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=383
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=384
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=384
+										StartFaceID=-1
+										StartEdgeID=385
+										StartVertexID=389
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=393
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=384
+									$end 'LocalOperationParameters'
+									ParentPartID=384
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=394
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=394
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=60000
+															FcUVMid(40, 0, 500)
+															$begin 'FcTolVts'
+																TolVt(40, 30, 1000, 0)
+																TolVt(40, 30, 0, 0)
+																TolVt(40, -30, 0, 0)
+																TolVt(40, -30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=383
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline30'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=395
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='-30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=396
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=396
+										StartFaceID=-1
+										StartEdgeID=397
+										StartVertexID=401
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=405
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=396
+									$end 'LocalOperationParameters'
+									ParentPartID=396
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=406
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=406
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=60000
+															FcUVMid(-40, 0, 500)
+															$begin 'FcTolVts'
+																TolVt(-40, 30, 1000, 0)
+																TolVt(-40, 30, 0, 0)
+																TolVt(-40, -30, 0, 0)
+																TolVt(-40, -30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=395
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline31'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=407
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='-30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='-30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='-30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=408
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=408
+										StartFaceID=-1
+										StartEdgeID=409
+										StartVertexID=413
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=417
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=408
+									$end 'LocalOperationParameters'
+									ParentPartID=408
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=418
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=418
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=80000
+															FcUVMid(0, -30, 500)
+															$begin 'FcTolVts'
+																TolVt(40, -30, 1000, 0)
+																TolVt(40, -30, 0, 0)
+																TolVt(-40, -30, 0, 0)
+																TolVt(-40, -30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=407
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline32'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=419
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=420
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=420
+										StartFaceID=-1
+										StartEdgeID=421
+										StartVertexID=425
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=429
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=420
+									$end 'LocalOperationParameters'
+									ParentPartID=420
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=430
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=430
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=35000
+															FcUVMid(22.5, 30, 500)
+															$begin 'FcTolVts'
+																TolVt(40, 30, 1000, 0)
+																TolVt(40, 30, 0, 0)
+																TolVt(5, 30, 0, 0)
+																TolVt(5, 30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=419
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline33'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=431
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-40mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=432
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=432
+										StartFaceID=-1
+										StartEdgeID=433
+										StartVertexID=437
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=441
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=432
+									$end 'LocalOperationParameters'
+									ParentPartID=432
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=442
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=442
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=35000
+															FcUVMid(-22.5, 30, 500)
+															$begin 'FcTolVts'
+																TolVt(-5, 30, 1000, 0)
+																TolVt(-5, 30, 0, 0)
+																TolVt(-40, 30, 0, 0)
+																TolVt(-40, 30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=431
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline34'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=443
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=444
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=444
+										StartFaceID=-1
+										StartEdgeID=445
+										StartVertexID=449
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=453
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=444
+									$end 'LocalOperationParameters'
+									ParentPartID=444
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=454
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=454
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=20000
+															FcUVMid(-5, 40, 500)
+															$begin 'FcTolVts'
+																TolVt(-5, 50, 1000, 0)
+																TolVt(-5, 50, 0, 0)
+																TolVt(-5, 30, 0, 0)
+																TolVt(-5, 30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=443
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline35'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=455
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='30mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='30mm'
+												Z='1000mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='5mm'
+												Y='50mm'
+												Z='1000mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=456
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=456
+										StartFaceID=-1
+										StartEdgeID=457
+										StartVertexID=461
+										NumNewFaces=0
+										NumNewEdges=4
+										NumNewVertices=4
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=465
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=456
+									$end 'LocalOperationParameters'
+									ParentPartID=456
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=4
+											NumEdges=4
+											NumVertices=4
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=466
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=466
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 4, 4, 4)
+														$begin 'FaceGeometry'
+															Area=20000
+															FcUVMid(5, 40, 500)
+															$begin 'FcTolVts'
+																TolVt(5, 50, 1000, 0)
+																TolVt(5, 50, 0, 0)
+																TolVt(5, 30, 0, 0)
+																TolVt(5, 30, 1000, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=455
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'RegionIdentity'
+						$begin 'Topology'
+							NumLumps=1
+							NumShells=1
+							NumFaces=1
+							NumWires=0
+							NumLoops=1
+							NumCoedges=4
+							NumEdges=4
+							NumVertices=4
+						$end 'Topology'
+						BodyID=51
+						StartFaceID=52
+						StartEdgeID=53
+						StartVertexID=57
+						NumNewFaces=1
+						NumNewEdges=4
+						NumNewVertices=4
+						FaceNameAndIDMap()
+						EdgeNameAndIDMap()
+						VertexNameAndIDMap()
+					$end 'RegionIdentity'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'group'
+							group(4)
+						$end 'group'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'polyline'
+							polyline(1, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35)
+						$end 'polyline'
+						$begin 'polyline_group'
+							polyline_group(-1)
+						$end 'polyline_group'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 5)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 31)
+						DependencyObject('GeometryBodyOperation', 5)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 244)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 270)
+						DependencyObject('GeometryBodyOperation', 244)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 323)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 333)
+						DependencyObject('GeometryBodyOperation', 323)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 335)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 345)
+						DependencyObject('GeometryBodyOperation', 335)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 347)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 357)
+						DependencyObject('GeometryBodyOperation', 347)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 359)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 369)
+						DependencyObject('GeometryBodyOperation', 359)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 371)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 381)
+						DependencyObject('GeometryBodyOperation', 371)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 383)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 393)
+						DependencyObject('GeometryBodyOperation', 383)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 395)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 405)
+						DependencyObject('GeometryBodyOperation', 395)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 407)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 417)
+						DependencyObject('GeometryBodyOperation', 407)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 419)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 429)
+						DependencyObject('GeometryBodyOperation', 419)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 431)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 441)
+						DependencyObject('GeometryBodyOperation', 431)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 443)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 453)
+						DependencyObject('GeometryBodyOperation', 443)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 455)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 465)
+						DependencyObject('GeometryBodyOperation', 455)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+				$begin 'OP_Option'
+					LinkType='None'
+				$end 'OP_Option'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'MaxwellParameterSetup'
+			$begin 'MaxwellParameters'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MaxwellParameters'
+			MotionParams()
+		$end 'MaxwellParameterSetup'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					CurvedSurfaceApproxChoice='UseSlider'
+					SliderMeshSettings=5
+				$end 'GlobalSurfApproximation'
+				$begin 'GlobalModelRes'
+					UseAutoLength=true
+				$end 'GlobalModelRes'
+				MeshMethod='Auto'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=-1
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'SolutionManager'
+			$begin 'Version ID Map'
+				V=133
+			$end 'Version ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR5D0B9615094661368.tmp'
+	$end 'Maxwell3DModel'
+	$begin 'Maxwell2DModel'
+		RepRewriteV2=true
+		Name='Maxwell2DDesign1'
+		DesignID=0
+		$begin 'TemperatureSettings'
+			IncludeTemperatureDependence=false
+			EnableFeedback=false
+			Temperatures(23, '22cel')
+		$end 'TemperatureSettings'
+		ObjsEnabledForDeformation()
+		ComputeIncrementalMatrix=false
+		PerfectConductorThreshold=1e+030
+		InsulatorThreshold=1
+		BackgroundMaterialName='vacuum'
+		SolutionType='Magnetostatic'
+		GeometryMode='XY'
+		SolutionType='Magnetostatic'
+		GeometryMode='XY'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'ModelSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Editor3D Doc Preferences'
+				'Plane Background'=true
+				BackgroundColor1=16777215
+				BackgroundColor2=0
+				'Need Lights'=true
+				'Ambient Light'=9671571
+				'Num Lights'=4
+				Light0[4: 6710886, 0, -1, -0.150000005960464]
+				Light1[4: 6710886, -0.600000023841858, 0.100000001490116, -0.5]
+				Light2[4: 6710886, 0.5, 0.100000001490116, -0.5]
+				Light3[4: 6710886, 0.200000002980232, 0.400000005960464, 1]
+				Ver=2
+			$end 'Editor3D Doc Preferences'
+			SnapMode=31
+			WorkingCS=1
+			$begin 'GeometryCore'
+				BlockVersionID=3
+				DataVersion=3
+				NativeKernel='ACIS'
+				NativeKernelVersionID=9
+				Units='mm'
+				InstanceID=-1
+				$begin 'ValidationOptions'
+					EntityCheckLevel='Strict'
+					IgnoreUnclassifiedObjects=false
+					SkipIntersectionChecks=false
+				$end 'ValidationOptions'
+				$begin 'GeometryOperations'
+					BlockVersionID=2
+					$begin 'AnsoftRangedIDServerManager'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=0
+							IDServerRangeMin=0
+							IDServerRangeMax=2146483647
+							NextUniqueID=50
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+						$begin 'AnsoftRangedIDServer'
+							IDServerObjectTypeID=1
+							IDServerRangeMin=2146483648
+							IDServerRangeMax=2146485547
+							NextUniqueID=2146483654
+							MoveBackwards=false
+						$end 'AnsoftRangedIDServer'
+					$end 'AnsoftRangedIDServerManager'
+					StartBackGroundFaceID=2146483648
+					$begin 'CoordinateSystems'
+					$end 'CoordinateSystems'
+					$begin 'OperandCSs'
+					$end 'OperandCSs'
+					$begin 'SubModelDefinitions'
+					$end 'SubModelDefinitions'
+					$begin 'Groups'
+					$end 'Groups'
+					$begin 'UserDefinedModels'
+					$end 'UserDefinedModels'
+					$begin 'OperandUserDefinedModels'
+					$end 'OperandUserDefinedModels'
+					$begin 'ToplevelParts'
+						$begin 'GeometryPart'
+							$begin 'Attributes'
+								Name='Polyline1'
+								Flags=''
+								Color='(143 175 143)'
+								Transparency=0
+								PartCoordinateSystem=1
+								UDMId=-1
+								GroupId=-1
+								MaterialValue='"vacuum"'
+								SolveInside=true
+								IsMaterialEditable=true
+							$end 'Attributes'
+							$begin 'Operations'
+								$begin 'Operation'
+									OperationType='Polyline'
+									ID=22
+									ReferenceCoordSystemID=1
+									$begin 'PolylineParameters'
+										KernelVersion=9
+										IsPolylineClosed=true
+										$begin 'PolylinePoints'
+											$begin 'PLPoint'
+												X='1mm'
+												Y='0.2mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.6mm'
+												Y='0.2mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.6mm'
+												Y='0.9mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-0.6mm'
+												Y='0.9mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-0.6mm'
+												Y='-0.6mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.6mm'
+												Y='-0.6mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='0.6mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='1mm'
+												Y='0mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='1mm'
+												Y='-0.9mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-1mm'
+												Y='-0.9mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='-1mm'
+												Y='1.1mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='1mm'
+												Y='1.1mm'
+												Z='0mm'
+											$end 'PLPoint'
+											$begin 'PLPoint'
+												X='1mm'
+												Y='0.2mm'
+												Z='0mm'
+											$end 'PLPoint'
+										$end 'PolylinePoints'
+										$begin 'PolylineSegments'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=0
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=1
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=2
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=3
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=4
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=5
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=6
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=7
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=8
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=9
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=10
+												NoOfPoints=2
+											$end 'PLSegment'
+											$begin 'PLSegment'
+												SegmentType='Line'
+												StartIndex=11
+												NoOfPoints=2
+											$end 'PLSegment'
+										$end 'PolylineSegments'
+										$begin 'PolylineXSection'
+											XSectionType='None'
+											XSectionOrient='Auto'
+											XSectionWidth='0mm'
+											XSectionTopWidth='0mm'
+											XSectionHeight='0mm'
+											XSectionNumSegments='0'
+											XSectionBendType='Corner'
+										$end 'PolylineXSection'
+									$end 'PolylineParameters'
+									ParentPartID=23
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=0
+											NumWires=1
+											NumLoops=0
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=23
+										StartFaceID=-1
+										StartEdgeID=24
+										StartVertexID=36
+										NumNewFaces=0
+										NumNewEdges=12
+										NumNewVertices=12
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+									$end 'OperationIdentity'
+								$end 'Operation'
+								$begin 'Operation'
+									OperationType='CoverLines'
+									ID=48
+									$begin 'LocalOperationParameters'
+										KernelVersion=9
+										LocalOpPart=23
+									$end 'LocalOperationParameters'
+									ParentPartID=23
+									ReferenceUDMID=-1
+									IsSuppressed=false
+									$begin 'OperationIdentity'
+										$begin 'Topology'
+											NumLumps=1
+											NumShells=1
+											NumFaces=1
+											NumWires=0
+											NumLoops=1
+											NumCoedges=12
+											NumEdges=12
+											NumVertices=12
+										$end 'Topology'
+										BodyID=-1
+										StartFaceID=49
+										StartEdgeID=-1
+										StartVertexID=-1
+										NumNewFaces=1
+										NumNewEdges=0
+										NumNewVertices=0
+										FaceNameAndIDMap()
+										EdgeNameAndIDMap()
+										VertexNameAndIDMap()
+										$begin 'GeomTopolBasedOperationIdentityHelper'
+											$begin 'NewFaces'
+												$begin 'Face'
+													NormalizedSerialNum=0
+													ID=49
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 12, 12, 12)
+														$begin 'FaceGeometry'
+															Area=2.12
+															FcUVMid(-2.08166817117217e-017, 0.1, 0)
+															$begin 'FcTolVts'
+																TolVt(1, 0.2, 0, 0)
+																TolVt(0.6, 0.2, 0, 0)
+																TolVt(0.6, 0.9, 0, 0)
+																TolVt(-0.6, 0.9, 0, 0)
+																TolVt(-0.6, -0.6, 0, 0)
+																TolVt(0.6, -0.6, 0, 0)
+																TolVt(0.6, 0, 0, 0)
+																TolVt(1, 0, 0, 0)
+																TolVt(1, -0.9, 0, 0)
+																TolVt(-1, -0.9, 0, 0)
+																TolVt(-1, 1.1, 0, 0)
+																TolVt(1, 1.1, 0, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
+											$end 'NewFaces'
+											$begin 'NewEdges'
+											$end 'NewEdges'
+											$begin 'NewVertices'
+											$end 'NewVertices'
+										$end 'GeomTopolBasedOperationIdentityHelper'
+									$end 'OperationIdentity'
+									ParentOperationID=22
+								$end 'Operation'
+							$end 'Operations'
+						$end 'GeometryPart'
+					$end 'ToplevelParts'
+					$begin 'OperandParts'
+					$end 'OperandParts'
+					$begin 'Planes'
+					$end 'Planes'
+					$begin 'Points'
+					$end 'Points'
+					$begin 'GeometryEntityLists'
+					$end 'GeometryEntityLists'
+					$begin 'CachedNames'
+						$begin 'allobjects'
+							allobjects(-1)
+						$end 'allobjects'
+						$begin 'global'
+							global(-1)
+						$end 'global'
+						$begin 'model'
+							model(-1)
+						$end 'model'
+						$begin 'polyline'
+							polyline(1)
+						$end 'polyline'
+					$end 'CachedNames'
+				$end 'GeometryOperations'
+				$begin 'GeometryDependencies'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 22)
+						DependencyObject('CoordinateSystem', 1)
+					$end 'DependencyInformation'
+					$begin 'DependencyInformation'
+						NumParents=1
+						DependencyObject('GeometryBodyOperation', 48)
+						DependencyObject('GeometryBodyOperation', 22)
+					$end 'DependencyInformation'
+				$end 'GeometryDependencies'
+			$end 'GeometryCore'
+			GroupByMaterial=true
+			GroupSheetByMaterial=true
+			GroupCompByDefID=true
+			DoNotOrganizeUnderGroup=true
+			$begin 'LastUserInputs'
+			$end 'LastUserInputs'
+		$end 'ModelSetup'
+		$begin '3DComponent'
+		$end '3DComponent'
+		$begin 'BoundarySetup'
+			$begin 'GlobalBoundData'
+				$begin 'OP_Option'
+					LinkType='None'
+				$end 'OP_Option'
+			$end 'GlobalBoundData'
+			$begin 'Boundaries'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'Boundaries'
+			$begin 'ProductSpecificData'
+			$end 'ProductSpecificData'
+		$end 'BoundarySetup'
+		$begin 'MaxwellParameterSetup'
+			$begin 'MaxwellParameters'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MaxwellParameters'
+			MotionParams()
+		$end 'MaxwellParameterSetup'
+		$begin 'MeshSetup'
+			$begin 'MeshSettings'
+				$begin 'GlobalSurfApproximation'
+					CurvedSurfaceApproxChoice='UseSlider'
+					SliderMeshSettings=5
+				$end 'GlobalSurfApproximation'
+				$begin 'GlobalModelRes'
+					UseAutoLength=true
+				$end 'GlobalModelRes'
+				MeshMethod='AnsoftClassic'
+			$end 'MeshSettings'
+			$begin 'MeshOperations'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'MeshOperations'
+		$end 'MeshSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'FieldsReporter'
+			$begin 'FieldsCalculator'
+				Line_Discretization=1000
+			$end 'FieldsCalculator'
+			$begin 'PlotDefaults'
+				Default_SolutionId=-1
+				Default_PlotFolder='Automatic'
+			$end 'PlotDefaults'
+			$begin 'FieldsPlotManagerID'
+				NextUniqueID=0
+				MoveBackwards=false
+				NumQuantityType=0
+				NumPlots=0
+			$end 'FieldsPlotManagerID'
+			$begin 'Report3dInGeomWnd'
+				Report3dNum=0
+			$end 'Report3dInGeomWnd'
+			$begin 'Report2dInGeomWnd'
+				Report2dNum=0
+			$end 'Report2dInGeomWnd'
+			$begin 'AntennaParametersInGeomWnd'
+				AntennaParametersNum=0
+			$end 'AntennaParametersInGeomWnd'
+			AntennaParametersPlotTablesOrder()
+		$end 'FieldsReporter'
+		$begin 'SolutionManager'
+			$begin 'Version ID Map'
+				V=2
+			$end 'Version ID Map'
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR5D0B9615094661367.tmp'
+	$end 'Maxwell2DModel'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		Refdes('1', 'U2')
+		Refdes('4', 'U4')
+		Refdes('3', 'U3')
+		Refdes('5', 'U5')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='Maxwell2DDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+			$begin 'Compinst'
+				ID='1'
+				Status='Status'
+				CompName='Maxwell3DDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '1')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='Maxwell2DDesign1'
+			ID='0'
+			$begin 'Maxwell2DDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View(WindowPos(5, -1, -1, -9, -38, 0, 0, 1504, 600), OrientationMatrix(0.591607987880707, 2.83488432728518e-009, -7.63138441328692e-009, 0, 0, 0.591607987880707, 0, 0, 0, 0, 0.591608047485352, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.7486834526062, 1, 0, -2.27504563331604, 2.27504563331604, -1, 1, 1.5653829574585, 9.93198299407959), Drawings[1: 'Polyline1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=0.2, dYForGrid=0.2, dZForGrid=0.2, dRForGrid=0.2, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'Maxwell2DDesignInstance'
+		$end 'Instance'
+		$begin 'Instance'
+			DesignEditor='Maxwell3DDesign1'
+			ID='1'
+			$begin 'MaxwellDesignInstance'
+				DesignInstanceID=3
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Editor3d(View(WindowPos(3, -1, -1, -9, -38, 32, 32, 1174, 633), OrientationMatrix(-0.012101992033422, -0.00698708929121494, 0.00988123472779989, 0, 0.012101992033422, -0.00698708835989237, 0.00988123472779989, 0, 0, 0.0139741767197847, 0.00988123472779989, 0, -4.38241004943848, -22.5303039550781, -8.669677734375, 1, 0, -16.498161315918, 17.3586730957031, -25.4511013031006, -4.87727069854736, -37.424633026123, 49.0008811950684), Drawings[14: 'Polyline1', 'Polyline23', 'Polyline24', 'Polyline25', 'Polyline26', 'Polyline27', 'Polyline28', 'Polyline29', 'Polyline30', 'Polyline31', 'Polyline32', 'Polyline33', 'Polyline34', 'Polyline35'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=50, dYForGrid=50, dZForGrid=50, dRForGrid=50, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'MaxwellDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+			$begin 'Maxwell2DDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					DefinitionCompName=''
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Maxwell2DDesign1'
+			$begin 'Maxwell3DDesign1'
+				$begin 'CosimDefinition'
+					CosimDefName='DefaultNetlist'
+					DefinitionCompName=''
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'Maxwell3DDesign1'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABgAGADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+yj9rH9t/4ffsh6v8NdB8YfD34r/EHVfilpvj3\
+V9DtfhhZ/Du4/s7T/h1deBLPXrjXJ/iD8SPDscO+5+ImgLbJbPdPJtuDIsSxqZPlP8A4fI/B/8A6Nq/\
+au/8Af2av/omK8Y/4LE/8ld/ZE/7Jx+1X/6k/wCylX5VV8tmWb4zC42tQpOPs4ctrxu9YRk9b92z4vN\
+89x+CzCvhqDh7KnyWvG71hGT1v3bP28/4fI/B/wD6Nq/au/8AAH9mr/6Jij/h8j8H/wDo2r9q7/wB/Z\
+q/+iYr8OZLi4Oo6Houm6J4s8T6/wCJtSn0jw74a8D+DfFnj7xRreoWmi6v4jvLfS/DHgrRb+/vfJ0DQ\
+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'
+	$begin 'DesignInfo'
+		DesignName='Maxwell2DDesign1'
+		Notes=''
+		Factory='Maxwell 2D'
+		IsSolved=false
+		'Nominal Setups'[0:]
+		'Nominal Setup Types'[0:]
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiv5ePiH+2p+2oPiz8ctN0X9qPxr4Z0Dwx+\
+0H+0D4H8NeHdI+Gv7N13p+ieF/APxp8d+CvDGl2954j+B1/f3vk6BoGnRvPeXtzcTOjSyzO7k1xY3H0\
+cDGE60ZSVR2XKk9tdbtHnZjmeHyyFOpiIzlGq2lyJN3SvreUT+oeiv5Tv+G0P25f+jv/AIj/APhrf2U\
+//od6P+G0P25f+jv/AIj/APhrf2U//od687/WHBf8+6v/AIDH/wCTPK/1ry3/AJ9Vv/AYf/LD+rGiv5\
+Tv+G0P25f+jv8A4j/+Gt/ZT/8Aod6P+G0P25f+jv8A4j/+Gt/ZT/8Aod6P9YcF/wA+6v8A4DH/AOTD/\
+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'
+	$end 'DesignInfo'
+	$begin 'DesignInfo'
+		DesignName='Maxwell3DDesign1'
+		Notes=''
+		Factory='Maxwell 3D'
+		IsSolved=false
+		'Nominal Setups'[0:]
+		'Nominal Setup Types'[0:]
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCADIAMgDASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKK/Hb/go\
+l+178S/h54ok8EfBX4r3Pws0j4PeFz47+O/i3wt4L+HXj7xt4h8R+LLKa1+EvwB+Hv/AAsRdS0TTPHV\
+3GRq+sabqOkprEsfjL4eRaPOLXxNdyJzYvFUsHQlXrN8kWlZattuySTau/ntc5MbjaGAw8sTiG+SLSs\
+leTbdkkrq7+e1z9iaK/mI+Fv/AAWz/bGi8L6b4i+If7KXwk+MbeMNK0XxB4ej+Efj3UPglpvhbR7/AE\
+6K+jh1+++JGs+LLnxXr90b1RJb2thpVnpUelo6ajrkmpyQ6J9s/Cn/AILi/steLbLxS3xe8C/HD9ny4\
++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'
+	$end 'DesignInfo'
+$end 'ProjectPreview'
